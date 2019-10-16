@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+header {
+    width: 100%;
+    height: 150px;
+}
+
+section {
+    width: 100%;
+    background-image: url("images/sfondosectionhomepage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    border-bottom: 3px solid #33475b;
+}
+
+#navbar_top {
+    width: 100%;
+    height: 75px;
+    background-color: #F5F8FA;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+#navbar_background {
+    width: 60%;
+    height: 75px;
+    margin: auto;
+}
+
+#navbar_top_left {
+    width: 50%;
+    height: 75px;
+    float: left;
+    position: relative;
+}
+
+#navbar_top_left ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#navbar_top_left li {
+  float: left;
+}
+
+#navbar_top_left li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+
+#navbar_top_left li a:hover {
+
+}
+
+#bordo {
+    border-right: 2px solid #cbd6e2;
+    padding-right: 20px;
+}
+
+#language::before {
+    content: url("https://cdn2.hubspot.net/hubfs/53/Logos/language-switcher-icon.svg");
+    display: inline-block;
+    width: 1rem;
+    font-size: 1.125rem;
+    vertical-align: middle;
+    margin-right: 0.625rem;
+}
+
+i {
+    display: inline-block;
+    position: relative;
+    color: #7c98b6;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0.25rem 0 1rem;
+}
+/* Menu in alto a destra */
+#navbar_top_right {
+    width: 50%;
+    height: 75px;
+    float: right;
+    position: relative;
+}
+
+#navbar_top_right ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 0;
+}
+
+#navbar_top_right li {
+  float: left;
+  padding: 5px;
+}
+
+
+#navbar_top_right input {
+    cursor: pointer;
+    background-color: transparent;
+    background-position: 0.25rem center;
+    text-align: left;
+    border: 0;
+    transition: max-width 0.3s ease-out;
+    max-height: 2rem;
+    min-height: 1rem;
+    max-width: 0;
+    padding: 0.25rem 0.5rem 0.25rem 1.75rem;
+    background-image: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/search%20icon.png");
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.top_right {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.563rem 1rem;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: .1875rem;
+    text-decoration: none;
+    line-height: 1.25;
+}
+
+#login {
+    color: #ff7a59;
+    background-color: #fff;
+}
+
+#get {
+    background-color: #ff7a59;
+    color: #fff;
+}
+/* Fine Menu in alto a destra */
+
+
+#navbar_bottom {
+    width: 60%;
+    height: 75px;
+    margin: auto;
+}
+
+#navbar_bottom_left {
+    width: 40%;
+    height: 75px;
+    float: left;
+    position: relative;
+    line-height: 75%;
+}
+
+#navbar_bottom_right {
+    width: 60%;
+    height: 75px;
+    float: right;
+    position: relative;
+    font-weight: 600;
+}
+
+#navbar_bottom_left img {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 14px 10px;
+}
+
+#navbar_bottom_right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 0;
+}
+
+
+#navbar_bottom_right li {
+  float: left;
+}
+
+#navbar_bottom_right li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+
+#navbar_bottom_right li a:hover {
+
+}
+
+#container_section_homepage {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#section_homepage {
+    max-width: 430px;
+    text-align: left;
+    padding: 4rem 0 30rem;
+}
+
+#section_homepage h1 {
+    font-size: 3.438rem;
+    line-height: 1.1818;
+    font-weight: 700;
+}
+
+#section_homepage p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#section_homepage a {
+    font-size: 1rem;
+    padding: 1.625rem 3rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff7a59;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.25;
+    border-radius: .1875rem;
+    text-decoration: none;
+}
+
+.testo_piccolo {
+    text-align: left;
+    max-width: 14rem;
+    font-weight: 500;
+    color: #33475b;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
