@@ -261,3 +261,31 @@ i {
     font-size: 0.75rem;
     line-height: 1.5;
 }
+
+#powerful {
+    padding: 100px 0 50px;
+    background: #f5f8fa;
+}
+
+.container_section_powerful {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#section_powerful {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#section_powerful img {
+    max-width: 260px;
+}
+
+#section_powerful h2 {
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.3125;
+}
