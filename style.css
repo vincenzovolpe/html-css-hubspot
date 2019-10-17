@@ -444,12 +444,12 @@ i {
 .product_one_bottom p{
     text-transform: uppercase;
     font-size: 13px;
-    border-top: 1px solid #e0e6ed;
     padding-top: 2em;
 }
 
 .product_one_bottom p:last-of-type {
     text-align: center;
+    border-top: 1px solid #e0e6ed;
 }
 
 .bordo {
