@@ -399,26 +399,12 @@ i {
     margin-right: 10px;
 }
 
-.product_one {
+.product {
     width: 33%;
     height: 600px;
     float: left;
     margin: 0 auto;
     padding: 20px;
-}
-
-.product_two {
-    width: 33%;
-    background-color: yellow;
-    height: 600px;
-    float: left;
-}
-
-.product_three {
-    width: 33%;
-    background-color: brown;
-    height: 600px;
-    float: left;
 }
 
 .product_one_top {
