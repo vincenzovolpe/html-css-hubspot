@@ -318,11 +318,12 @@ i {
     verti
 }
 
-#learn {
+.learn {
     padding-top: 20px;
+    text-align: center;
 }
 
-#learn a {
+.learn a {
     font-size: 0.875rem;
     padding: 0.75rem 1.5rem;
     font-weight: 600;
@@ -360,7 +361,7 @@ i {
     margin-bottom: 1em;
 }
 
-#popular {
+.popular {
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 15px;
@@ -368,7 +369,7 @@ i {
     font-size: 13px;
 }
 
-#popular::after {
+.popular::after {
     content: '';
     position: absolute;
     height: 5px;
@@ -389,6 +390,86 @@ i {
 }
 
 .product_top_text li::before{
+    content: '';
+    background: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg") no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+.product_one {
+    width: 33%;
+    height: 600px;
+    float: left;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product_two {
+    width: 33%;
+    background-color: yellow;
+    height: 600px;
+    float: left;
+}
+
+.product_three {
+    width: 33%;
+    background-color: brown;
+    height: 600px;
+    float: left;
+}
+
+.product_one_top {
+
+}
+
+.product_one_top img{
+    width: 100%;
+    height: 150px;
+}
+
+.product_one_bottom {
+
+}
+.product_one_bottom h4{
+    text-align: center;
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 1.3636;
+    margin: 0.5em 0;
+}
+
+.product_one_bottom p{
+    text-transform: uppercase;
+    font-size: 13px;
+    border-top: 1px solid #e0e6ed;
+    padding-top: 2em;
+}
+
+.product_one_bottom p:last-of-type {
+    text-align: center;
+}
+
+.bordo {
+    border-bottom: : 1px solid #e0e6ed;
+}
+.product_one_bottom ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.product_one_bottom li {
+    margin-right: 20px;
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.product_one_bottom li::before{
     content: '';
     background: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg") no-repeat;
     width: 18px;
