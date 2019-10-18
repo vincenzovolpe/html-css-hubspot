@@ -546,7 +546,7 @@ i {
     border-right: 0;
 }
 
-.sezione_clienti {
+#sezione_clienti {
     width: 55%;
     padding-top: 100px;
     margin: 0 auto;
@@ -607,4 +607,73 @@ i {
     left: 50%;
     transform: translate(-50%,  -50%);
     text-align: center;
+}
+
+#sezione_studi {
+    width: 60%;
+    padding: 100px 0;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.sezione_studi_testo {
+    width: 40%;
+    float: left;
+    height: 600px;
+}
+
+.sezione_studi_testo h2 {
+    margin: 0 0 1.25rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.3125;
+}
+
+.sezione_studi_testo p {
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.sezione_studi_testo a {
+    margin: 2rem 0 1.5rem;
+    font-size: 1rem;
+    padding: 1.625rem 3rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff7a59;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.25;
+    border: 0;
+    border-radius: .1875rem;
+    -webkit-transition: 0.15s color ease-out, 0.15s background-color ease-out, 0.15s border-color ease-out;
+    transition: 0.15s color ease-out, 0.15s background-color ease-out, 0.15s border-color ease-out;
+    text-decoration: none;
+}
+
+.sezione_studi_testo small {
+    color: #516f90;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 525px;
+    margin: 2em auto;
+}
+
+.sezione_studi_foto {
+    width: 60%;
+    height: 600px;
+    float: right;
+    text-align: right;
+}
+.sezione_studi_foto_immagine {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    display: inline-block;
+}
+
+.sezione_studi_foto_immagine img{
+    max-width: 100%;
 }
