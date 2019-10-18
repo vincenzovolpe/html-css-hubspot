@@ -7,6 +7,7 @@
 body {
     color: #33475b;
     line-height: 1.625;
+    overflow-x: hidden;
 }
 
 header {
@@ -18,7 +19,6 @@ header {
     width: 100%;
     background-color: #F5F8FA;
     margin: 0 auto;
-    overflow: auto;
 }
 
 #homepage {
@@ -170,7 +170,6 @@ i {
     margin: 0 auto;
     position: relative;
     top: 75px;
-    overflow: auto;
     z-index: 1;
 }
 
