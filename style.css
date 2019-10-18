@@ -294,6 +294,12 @@ i {
     line-height: 1.3125;
 }
 
+
+
+#sezione_prodotti {
+    width: 100%;
+    margin: 0 auto;
+}
 .container_products{
     width: 50%;
     margin: 0 auto;
