@@ -503,12 +503,11 @@ i {
 }
 
 .sezione_verde_blocchi {
-    height: 600px;
-    margin: 80px 0 0;
+    height: 400px;
     position: relative;
 }
 
-.divTable{
+.divTable {
 	display: table;
 	width: 100%;
     position: absolute;
@@ -517,20 +516,29 @@ i {
     transform: translate(-50%,  -50%);
     text-align: center;
 }
-.divTableRow {
-	display: table-row;
+
+.divTable p{
+    padding: 0;
 }
-.divTableHeading {
-	display: table-header-group;
+
+.divTableCell{
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+	padding: 20px;
+    float: left;
+    width: 285px;
+    height: 150px;
 }
-.divTableCell, .divTableHead {
-	border: 1px solid #ffffff;
-	display: table-cell;
-	padding: 3px 10px;
+
+.divTableCell img h2 p{
+    text-align: center;
+    display: inline-block;
 }
-.divTableFoot {
-	display: table-footer-group;
+
+.riga_due div{
+    border-bottom: 0;
 }
-.divTableBody {
-	display: table-row-group;
+
+.divTableCell:nth-child(4n) {
+    border-right: 0;
 }
