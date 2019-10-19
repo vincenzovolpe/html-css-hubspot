@@ -15,6 +15,18 @@ header {
     height: 150px;
 }
 
+.contenitore {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+
 .background_page {
     width: 100%;
     background-color: #F5F8FA;
@@ -676,4 +688,115 @@ i {
 
 .sezione_studi_foto_immagine img{
     max-width: 100%;
+}
+
+nav {
+    height: 280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+footer {
+    background-color: #33475b;
+    padding-top: 100px;
+}
+
+#footer_nav_menu {
+    list-style:none inside;
+    margin:0;
+    padding:0;
+    text-align: left;
+}
+
+#footer_nav_menu li {
+    display: inline;
+    position: relative;
+    float:left;
+    padding-right: 110px;
+}
+
+#footer_nav_menu li a {
+    display:block;
+    text-decoration:none;
+    width:200px;
+    line-height:35px;
+
+    font-weight: 500;
+}
+
+#footer_nav_menu li li a {
+    color: #cbd6e2;
+}
+
+#footer_nav_menu ul {
+    position:absolute;
+    padding:0;
+    left:0;
+    display:none;
+}
+
+#footer_nav_menu li ul {
+    display:block;
+}
+
+#footer_nav_menu li li ul {
+    display:block;
+    margin-left:200px;
+    margin-top:-35px;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.375;
+    color: white;
+}
+
+#select_item a:first-of-type, a>i:first-of-type{
+    color: white;
+}
+
+#contact_btn a:first-of-type {
+    font-size: 12px;
+    color: #33475b;
+    background-color: #fff;
+    cursor: pointer;
+    line-height: 1.25;
+    border: 0;
+    border-radius: .1875rem;
+    margin: 0.75rem 0;
+    background-color: rgba(255,255,255,0.9);
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.social_menu {
+    width: 294px;
+    float: right;
+}
+
+.social_menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+}
+.social_menu li {
+    float: left;
+}
+
+.social_menu li a {
+      display: block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      padding-right: 14px;
+}
+
+.social_menu li a:hover {
+
+}
+
+.socialmenu i {
+    padding: 0;
 }
