@@ -835,7 +835,6 @@ label {
     border: none;
     font-size: 18px;
     display:inline-block;
-
 }
 
 #footer_lingue a {
@@ -851,7 +850,7 @@ label {
 #footer_logo {
     width: 50%;
     float: left;
-    position: absolute;
+    position: relative;
     top: 50%;
     transform: translate(0, -50%);
 }
@@ -859,24 +858,24 @@ label {
 #footer_copyright {
     width: 50%;
     float: right;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 #footer_logo p {
     font-size: 0.75rem;
     line-height: 1.5;
 }
+
 #footer_copyright ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    right: 0;
 }
 
 #footer_copyright li {
-    float: left;
+    float: right;
 }
 
 #footer_copyright li a{
@@ -885,6 +884,7 @@ label {
     padding: 0 20px 20px;
     text-decoration: none;
     font-weight: 500;
+    color: #cbd6e2;
 }
 
 #footer_copyright li a:hover{
