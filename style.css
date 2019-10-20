@@ -12,7 +12,7 @@ body {
 }
 
 header {
-
+    height: 150px;
 }
 
 .contenitore {
@@ -39,19 +39,22 @@ header {
 .fixed {
     width: 100%;
     position: fixed;
-    top: 0px;
+    height: 75px;
+    z-index: 1;
 }
 
 #navbar_top {
+    width: 100%;
     background-color: #F5F8FA;
     border-bottom: 1px solid #cbd6e2;
-    margin: 0 auto;
 }
 
 #navbar_bottom {
+    width: 100%;
     margin: 0 auto;
-    height: 75px;
-    background-color: #ffffff;
+    position: relative;
+    top: 75px;
+    background-color: #FFFFFF;
 }
 
 #navbar_background {
