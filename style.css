@@ -231,6 +231,58 @@ i {
 
 }
 
+#sezione_promo {
+    width: 100%;
+    background-image: linear-gradient(45deg, #f2547d, #f2545b);
+    color: #fff;
+    height: 75px;
+}
+
+.animazione {
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    background-image: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/circleLight1.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    -webkit-animation: floatCircle 20s linear infinite;
+    animation: floatCircle 20s linear infinite;
+}
+
+.animazione p{
+    margin: 0;
+    padding: 0 1.25rem;
+}
+
+.button_promo {
+    float: left;
+    position: absolute;
+
+top: 50%;
+
+transform: translate(0, -50%);
+
+right: 0;
+}
+
+.animazione a{
+    font-size: 0.875rem;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    color: #33475b;
+    background-color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.25;
+    border: 0;
+    border-radius: .1875rem;
+    transition: 0.15s color ease-out, 0.15s background-color ease-out, 0.15s border-color ease-out;
+    text-decoration: none;
+}
+
+
 #container_section_homepage {
     width: 60%;
     margin: 0 auto;
@@ -897,4 +949,33 @@ label {
 
 #footer_copyright li a:hover{
     color: #7fd1de;
+}
+
+#chat {
+    padding-bottom: 16px;
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    padding-right: 16px;
+    padding-left: 0px;
+}
+
+#chat button {
+    background-color: rgb(66, 91, 118);
+    box-shadow: 0 1px 6px rgba(0,0,0,.1),0 2px 24px rgba(0,0,0,.2);
+    transition: box-shadow .1s ease-in-out;
+    position: relative;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: medium none;
+    cursor: pointer;
+}
+#chat img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
